@@ -1,0 +1,157 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 10%;
+  width: 90%;
+  height: 50%;
+  max-width: 1200px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #6accf3;
+  border-radius: 2em;
+}
+form {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+label {
+  display: inline;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+ margin-left: auto;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 2em;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+input[readonly] {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+input:hover {
+  border-color: #999;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  margin-top: 50%;
+  margin-bottom: 20px;
+  background-color: #40e6f1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.main-block {
+  width: 95%;
+  margin-bottom: 10px;
+  background-color: rgb(171, 248, 224);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.statistics-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #330303;
+  border-radius: 5px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #ee2fbe;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.statistics-block h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.statistics-block p {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.details-block {
+  display: none;
+  width: 100%;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.details h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.details p {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  border-radius: 5px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
